@@ -84,4 +84,8 @@ public class LinkedList <T> {
         }
         return currentObject.getValue();
     }
+
+    public int size () {
+        return size;
+    }
 }

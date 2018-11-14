@@ -14,11 +14,7 @@ public class Controller {
 
         linkedList.pop();
 
-        System.out.println(linkedList.get(2));
-
-
-        int[] intList = {1,2};
-
+        System.out.println(linkedList.hashCode());
 
     }
 }
